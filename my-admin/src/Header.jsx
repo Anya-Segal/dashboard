@@ -1,8 +1,19 @@
-import React from 'react'
+import React from 'react';
+import { BsFillBellFill, BsFillEnvelopeFill, BsPersonCircle, BsJustify }
+from 'react-icons/bs';
 
 function Header() {
   return (
-    <div>Header</div>
+    <div className='header'>
+        <div className='menu-icon'>
+            <BsJustify className='icon'/>
+        </div>
+        <div className='header-right'>
+            <BsFillBellFill className='icon'/>
+            <BsFillEnvelopeFill className='icon'/>
+            <BsPersonCircle className='icon'/>
+        </div>
+    </div>
   )
 }
 
