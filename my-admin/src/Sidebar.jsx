@@ -19,7 +19,7 @@ function Sidebar() {
             </li>
             <li className='sidebar-list-item'>
                 <a href=''>
-                    <BsFillArchiveFill className='icon'/> Products
+                    <BsFillArchiveFill className='icon'/> Contact
                 </a>
             </li>
             <li className='sidebar-list-item'>
