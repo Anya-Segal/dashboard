@@ -4,12 +4,11 @@ BsListCheck, BsMenuButtonWideFill, BsFillGearFill } from 'react-icons/bs';
 
 function Sidebar() {
   return (
-    <aside id='sidebar'>
+    <aside id="sidebar">
         <div className='sidebar-title'>
             <div className='sidebar-brand'>
                 StelStay
             </div>
-            <span className='icon close_icon'> X </span>
         </div>
 
         <ul className='sidebar-list'>

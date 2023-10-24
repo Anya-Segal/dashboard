@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsFillBellFill, BsFillEnvelopeFill, BsPersonCircle, BsJustify }
+import { BsFillBellFill, BsFillEnvelopeFill, BsPersonCircle, BsSearch, BsJustify }
 from 'react-icons/bs';
 
 function Header() {
@@ -7,6 +7,8 @@ function Header() {
     <div className='header'>
         <div className='menu-icon'>
             <BsJustify className='icon'/>
+        </div>
+        <div className='header-left'>
         </div>
         <div className='header-right'>
             <BsFillBellFill className='icon'/>
