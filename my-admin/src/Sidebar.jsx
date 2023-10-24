@@ -1,5 +1,5 @@
 import React from 'react';
-import { BsCart3, BsGrid1X2Fill, BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill,
+import { BsGrid1X2Fill, BsFillArchiveFill, BsFillGrid3X3GapFill, BsPeopleFill,
 BsListCheck, BsMenuButtonWideFill, BsFillGearFill } from 'react-icons/bs';
 
 function Sidebar() {
@@ -45,7 +45,7 @@ function Sidebar() {
             </li>
             <li className='sidebar-list-item'>
                 <a href=''>
-                    <BsFillGearFill className='icon'/> Setting
+                    <BsFillGearFill className='icon'/> Settings
                 </a>
             </li>
         </ul>
